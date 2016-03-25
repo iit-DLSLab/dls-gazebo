@@ -1,5 +1,5 @@
 <package>
-  <name>gazebo_environments</name>
+  <name>dls_gazebo</name>
   <version>0.0.1</version>
   <description>
 	This package contains gazebo environment such as models and worlds
