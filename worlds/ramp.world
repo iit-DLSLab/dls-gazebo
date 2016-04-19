@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <physics type='ode'>
+      <gravity>0 0 -9.81</gravity>
+    </physics>
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <name>ramp</name>
+      <uri>model://ramp_05</uri>
+      <pose>1.5 0 0 0 0 3.14</pose>
+    </include>
+  </world>
+</sdf>
