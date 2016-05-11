@@ -72,13 +72,22 @@
     <include>
 		<uri>model://variable_blocks</uri>
 		<name>variable_blocks</name>
-		<pose>0 -0.6 0 0 0 0</pose>
+		<pose>0 -1 0 0 0 0</pose>
     </include>
     <include>
 		<uri>model://variable_blocks</uri>
 		<name>variable_blocks</name>
-		<pose>0 0.6 0 0 0 0</pose>
+		<pose>0 0.2 0 0 0 0</pose>
     </include>
-  
+        <include>
+		<uri>model://variable_blocks</uri>
+		<name>variable_blocks</name>
+		<pose>1 0.2 0 0 0 0</pose>
+    </include>
+      <include>
+		<uri>model://variable_blocks</uri>
+		<name>variable_blocks</name>
+		<pose>1 -1 0 0 0 0</pose>
+    </include>
   </world>
 </sdf>
