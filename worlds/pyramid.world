@@ -72,22 +72,22 @@
     <include>
 		<uri>model://stairs</uri>
 		<name>stairs</name>
-		<pose>0 -0.5 0 1.57 0 0</pose>
+		<pose>1 -0.5 0 1.57 0 0</pose>
     </include>
         <include>
 		<uri>model://mirrored_stairs</uri>
 		<name>mirrored_stairs</name>
-		<pose>6 0.5 0 1.57 0 3.1415</pose>
+		<pose>7 0.5 0 1.57 0 3.1415</pose>
     </include>
     <include>
 		<uri>model://stairs</uri>
 		<name>stairs</name>
-		<pose>4 -3.5 0 1.57 0 1.57</pose>
+		<pose>5 -3.5 0 1.57 0 1.57</pose>
     </include>
     <include>
 		<uri>model://mirrored_stairs</uri>
 		<name>mirrored_stairs</name>
-		<pose>2 3.5 0 1.57 0 -1.57</pose>
+		<pose>3 3.5 0 1.57 0 -1.57</pose>
     </include>
   </world>
 </sdf>
