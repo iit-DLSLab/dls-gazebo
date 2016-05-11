@@ -72,7 +72,7 @@
     <include>
 		<uri>model://stairs</uri>
 		<name>stairs</name>
-		<pose>1 -0.5 0 1.57 0 0</pose>
+		<pose>3 3.3 0 1.57 0 -1.57</pose>
     </include>
         <include>
 		<uri>model://mirrored_stairs</uri>
@@ -87,7 +87,7 @@
     <include>
 		<uri>model://mirrored_stairs</uri>
 		<name>mirrored_stairs</name>
-		<pose>3 3.5 0 1.57 0 -1.57</pose>
+		<pose>1 -0.7 0 1.57 0 0</pose>
     </include>
   </world>
 </sdf>
