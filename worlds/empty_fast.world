@@ -17,7 +17,7 @@
         </constraints>
       </ode>
       <real_time_update_rate>200</real_time_update_rate>
-      <max_step_size>0.005</max_step_size>
+      <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
     </physics>
     <!-- A global light source -->
