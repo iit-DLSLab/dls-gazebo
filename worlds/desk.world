@@ -18,7 +18,7 @@
     <include>
       <name>ramp</name>
       <uri>model://desk</uri>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>-2 -5 -0.45 0 0 0</pose>
     </include>
   </world>
 </sdf>
