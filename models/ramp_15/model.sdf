@@ -8,7 +8,7 @@
 				<geometry>
 					<mesh>
 						<uri>model://ramp_45/mesh/ramp_45.dae</uri>
-						<scale>1.0 1.0 0.2679</scale>
+						<scale>2.0 2.0 0.5358</scale>
 					</mesh>
 				</geometry>
 				<surface>
@@ -24,7 +24,7 @@
 				<geometry>
 					<mesh>
 						<uri>model://ramp_45/mesh/ramp_45.dae</uri>
-						<scale>1.0 1.0 0.2679</scale>
+						<scale>2.0 2.0 0.5358</scale>
 					</mesh>
 				</geometry>
 			</visual>
