@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
-	<model name="pallet770x1000x150mm">
+	<model name="pallet600x1000x140mm">
 		<static>true</static>
 		<link name="link">
 			<pose>0 0 0.06 0 0 0</pose>
 			<collision name="collision">
 				<geometry>
 					<mesh>
-						<uri>model://pallet770x1000x150mm/mesh/pallet.dae</uri>
-						<scale>0.751 11.36 1.704</scale>
+						<uri>model://pallet480x1000x140mm/mesh/pallet.dae</uri>
+						<scale>0.585 11.36 1.59</scale>
 					</mesh>
 				</geometry>
 				<surface>
@@ -34,8 +34,8 @@
 			<visual name="visual">
 				<geometry>
 					<mesh>
-						<uri>model://pallet770x1000x150mm/mesh/pallet.dae</uri>
-						<scale>0.751 11.36 1.704</scale>
+						<uri>model://pallet480x1000x140mm/mesh/pallet.dae</uri>
+						<scale>0.585 11.36 1.59</scale>
 					</mesh>
 				</geometry>
 			</visual>
