@@ -16,6 +16,8 @@
       <uri>model://ground_plane</uri>
     </include>
     
+   <!-- first stair starts at 0.8-->
+    
     <include>
       <name>pallet600x1000x140mm</name>
       <uri>model://pallet600x1000x140mm</uri>
@@ -28,23 +30,35 @@
       <pose>1.4 0 0.14 0 0 0 </pose>
     </include>
     
+
+    
     <include>
       <name>pallet600x1000x140mm</name>
       <uri>model://pallet600x1000x140mm</uri>
       <pose>2.0 0 0.28 0 0 0 </pose>
-    </include>
+    </include>  
+
+    <include>
+      <name>pallet600x1000x140mm</name>
+      <uri>model://pallet600x1000x140mm</uri>
+      <pose>2.6 0 0.28 0 0 0 </pose>
+    </include>  
+
+  
+    <!-- second stair starts at 3.2-->
   
     <include>
       <name>pallet600x1000x140mm</name>
       <uri>model://pallet600x1000x140mm</uri>
-      <pose>2.6 0 0.14 0 0 0</pose>
+      <pose>3.2 0 0.14 0 0 0</pose>
     </include>
     
     <include>
       <name>pallet600x1000x140mm</name>
       <uri>model://pallet600x1000x140mm</uri>
-      <pose>3.2 0 0.0 0 0 0 </pose>
+      <pose>3.8 0 0.0 0 0 0 </pose>
     </include>
+    
     
 
   </world>
