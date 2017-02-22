@@ -8,7 +8,9 @@
 				<geometry>
 					<mesh>
 						<uri>model://pallet770x1000x140mm/mesh/pallet.dae</uri>
-						<scale>0.751 11.36 1.59</scale>
+						<!-- original size = 1.016 x 0.090678 x 0.090678 m -->
+						<!-- final size = 0.77 x 1 x 0.14 m -->
+						<scale>0.758 11.028 1.5439</scale>
 					</mesh>
 				</geometry>
 				<surface>
@@ -35,7 +37,9 @@
 				<geometry>
 					<mesh>
 						<uri>model://pallet770x1000x140mm/mesh/pallet.dae</uri>
-						<scale>0.751 11.36 1.59</scale>
+						<!-- original size = 1.016 x 0.090678 x 0.090678 m -->
+						<!-- final size = 0.77 x 1 x 0.14 m -->
+						<scale>0.758 11.028 1.5439</scale>
 					</mesh>
 				</geometry>
 			</visual>
