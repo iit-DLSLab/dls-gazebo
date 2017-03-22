@@ -17,8 +17,8 @@
     </include>
     <include>
       <name>ramp</name>
-      <uri>model://ramp_05</uri>
-      <pose>1.8 0 0 0 0 3.14</pose>
+      <uri>model://ramp_15</uri>
+      <pose>2.8 0 0 0 0 3.14</pose>
     </include>
   </world>
 </sdf>
