@@ -22,13 +22,13 @@
     <include>
       <name>pallet2000x5000x140mm</name>
       <uri>model://pallet2000x5000x140mm</uri>
-      <pose>5 -0.2 0 -0.05 0.87 1.57</pose>
+      <pose>6 -0.2 0 -0.05 0.87 1.57</pose>
     </include>
     
     <include>
       <name>pallet2000x5000x140mm</name>
       <uri>model://pallet2000x5000x140mm</uri>
-      <pose>5 0.2 0.0 -0.05 -0.87  1.57 </pose>
+      <pose>6 0.2 0.0 -0.05 -0.87  1.57 </pose>
     </include>
 
 
