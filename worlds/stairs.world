@@ -16,7 +16,7 @@
       <uri>model://ground_plane</uri>
     </include>
     <include>
-      <name>pallet</name>
+      <name>pallet145</name>
       <uri>model://pallet</uri>
       <pose>1 0 0 0 0 3.14</pose>
     </include>
