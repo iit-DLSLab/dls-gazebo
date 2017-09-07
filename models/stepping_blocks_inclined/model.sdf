@@ -1,0 +1,2813 @@
+<sdf version='1.4'>
+	<model name='2pallets+stepping_blocks'>
+		<static>1</static>
+	<link name='block_11'>
+		<pose>1 0 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_21'>
+		<pose>1.25 0 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_31'>
+		<pose>1.5 0 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_41'>
+		<pose>1.75 0 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_51'>
+		<pose>2 0 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_61'>
+		<pose>2.25 0 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_71'>
+		<pose>2.5 0 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_81'>
+		<pose>2.75 0 0.1 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_91'>
+		<pose>3 0 0.12 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_10_1'>
+		<pose>3.25 0 0.15 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_11_1'>
+		<pose>3.5 0 0.2 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_12_1'>
+		<pose>3.75 0 0.15 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_13_1'>
+		<pose>4 0 0.1 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_14_1'>
+		<pose>4.25 0 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_15_1'>
+		<pose>4.5 0 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_16_1'>
+		<pose>4.75 0 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_17_1'>
+		<pose>5 0 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_18_1'>
+		<pose>5.25 0 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_12'>
+		<pose>1 0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_22'>
+		<pose>1.25 0.25 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_32'>
+		<pose>1.5 0.25 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_42'>
+		<pose>1.75 0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_52'>
+		<pose>2 0.25 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_62'>
+		<pose>2.25 0.25 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_72'>
+		<pose>2.5 0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_82'>
+		<pose>2.75 0.25 0.15 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_92'>
+		<pose>3 0.25 0.1 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_10_2'>
+		<pose>3.25 0.25 0.2 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_11_2'>
+		<pose>3.5 0.25 0.15 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_12_2'>
+		<pose>3.75 0.25 0.1 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_13_2'>
+		<pose>4 0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_14_2'>
+		<pose>4.25 0.25 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_15_2'>
+		<pose>4.5 0.25 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_16_2'>
+		<pose>4.75 0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_17_2'>
+		<pose>5 0.25 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_18_2'>
+		<pose>5.25 0.25 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_13'>
+		<pose>1 -0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_23'>
+		<pose>1.25 -0.25 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_33'>
+		<pose>1.5 -0.25 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_43'>
+		<pose>1.75 -0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_53'>
+		<pose>2 -0.25 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_63'>
+		<pose>2.25 -0.25 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_73'>
+		<pose>2.5 -0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_83'>
+		<pose>2.75 -0.25 0.1 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_93'>
+		<pose>3 -0.25 0.12 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_10_3'>
+		<pose>3.25 -0.25 0.15 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_11_3'>
+		<pose>3.5 -0.25 0.2 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_12_3'>
+		<pose>3.75 -0.25 0.15 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_13_3'>
+		<pose>4 -0.25 0.1 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_14_3'>
+		<pose>4.25 -0.25 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_15_3'>
+		<pose>4.5 -0.25 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_16_3'>
+		<pose>4.75 -0.25 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_17_3'>
+		<pose>5 -0.25 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_18_3'>
+		<pose>5.25 -0.25 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_14'>
+		<pose>1 -0.5 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_24'>
+		<pose>1.25 -0.5 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_34'>
+		<pose>1.5 -0.5 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_44'>
+		<pose>1.75 -0.5 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_54'>
+		<pose>2 -0.5 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_64'>
+		<pose>2.25 -0.5 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_74'>
+		<pose>2.5 -0.5 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_84'>
+		<pose>2.75 -0.5 0.15 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_94'>
+		<pose>3 -0.5 0.1 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_10_4'>
+		<pose>3.25 -0.5 0.2 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_11_4'>
+		<pose>3.5 -0.5 0.15 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_12_4'>
+		<pose>3.75 -0.5 0.1 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_13_4'>
+		<pose>4 -0.5 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_14_4'>
+		<pose>4.25 -0.5 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_15_4'>
+		<pose>4.5 -0.5 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_16_4'>
+		<pose>4.75 -0.5 0 0.2 0 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_17_4'>
+		<pose>5 -0.5 0 -0.3 0.1 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+	<link name='block_18_4'>
+		<pose>5.25 -0.5 0 0.4 -0.2 0</pose>
+		<collision name='collision'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+			<surface>
+				<bounce>
+					<restitution_coefficient>0.01</restitution_coefficient>
+					<threshold>5</threshold>
+				</bounce>
+				<friction>
+					<ode>
+						<mu>10</mu>
+						<mu2>10</mu2>
+					</ode>
+				</friction>
+				<contact>
+					<ode>
+						<soft_cfm>0.001</soft_cfm>
+						<kp>100000</kp>
+						<kd>1000</kd>
+					</ode>
+				</contact>
+			</surface>
+			<max_contacts>10</max_contacts>
+		</collision>
+		<visual name='visual'>
+			<geometry>
+				<mesh>
+					<uri>model://blockwood_benchmark/mesh/pallet.dae</uri>
+					<scale>0.246 2.46 1.1249</scale>
+				</mesh>
+			</geometry>
+		</visual>
+	</link>
+</model>
+</sdf>
