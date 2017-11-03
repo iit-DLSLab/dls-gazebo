@@ -25,6 +25,7 @@
       <uri>model://sun</uri>
     </include>
     <!-- A ground plane -->
+<!--
     <model name="ground_plane">
         <static>true</static>
         <link name="link">
@@ -68,11 +69,12 @@
             </material>
           </visual>
         </link>
-	</model>
+    </model>
+-->
     <include>
 		<uri>model://maya_terrain</uri>
 		<name>stairs</name>
-		<pose>0 0 2.0 1.57 0 -1.57</pose>
+		<pose>0 0 0.0 1.57 0 -1.57</pose>
     </include>
   </world>
 </sdf>
