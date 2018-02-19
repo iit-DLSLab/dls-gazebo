@@ -16,14 +16,20 @@
       <uri>model://ground_plane</uri>
     </include>
     <include>
-      <name>ramp1</name>
-      <uri>model://ramp_15</uri>
-      <pose>4 0 0 0 0 3.14</pose>
+      <name>rampUp</name>
+      <uri>model://ramp_10</uri>
+      <pose>2.2 0 0 0 0 3.14</pose>
+    </include>
+    
+    <include>
+      <name>cobble</name>
+      <uri>model://cobblestones_3</uri>
+      <pose>3.67 0.083 0.3 0  0 3.14</pose>
     </include>
     <include>
-      <name>ramp2</name>
-      <uri>model://ramp_15</uri>
-      <pose>8 0 0 0 0 0 </pose>
+      <name>rampDown</name>
+      <uri>model://ramp_05</uri>
+      <pose>5.46 0 0 0 0 0</pose>
     </include>
 
   </world>

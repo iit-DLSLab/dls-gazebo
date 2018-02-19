@@ -16,15 +16,9 @@
       <uri>model://ground_plane</uri>
     </include>
     <include>
-      <name>ramp1</name>
-      <uri>model://ramp_15</uri>
-      <pose>4 0 0 0 0 3.14</pose>
+      <name>pallet</name>
+      <uri>model://duct</uri>
+      <pose>1.0 0.354 0.51 0 1.57 0.0</pose>
     </include>
-    <include>
-      <name>ramp2</name>
-      <uri>model://ramp_15</uri>
-      <pose>8 0 0 0 0 0 </pose>
-    </include>
-
   </world>
 </sdf>
