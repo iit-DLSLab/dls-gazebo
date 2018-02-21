@@ -5,7 +5,9 @@
   	<scene>
   		<shadows>0</shadows>
   		<sky>  		
-  			<sunset> 19  			</sunset>
+  			<sunrise> 7</sunrise>
+  			<time>12</time>
+  			<sunset>19</sunset>
   		</sky>
   	</scene>
     <physics type='ode'>
