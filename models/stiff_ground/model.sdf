@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<sdf version="1.2">
+  <model name="stiff_ground">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>10 5 1</size>
+          </box>
+        </geometry>
+        
+        <surface>
+          <bounce>
+            <restitution_coefficient>0.01</restitution_coefficient>
+            <threshold>5.0</threshold>
+          </bounce>
+          <friction>
+            <ode>
+              <mu>10</mu>
+              <mu2>10</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+           <!--   <kp>10000000000.0</kp>
+              <kd>10000000000.0</kd> -->
+              <kp>100000000000.0</kp>  <kd>30000000000.0</kd>     <!-- kd = 0.3 kp --> <!-- gain set 3 -->
+            </ode>
+          </contact>
+        </surface>
+
+      </collision>
+      <visual name="visual_1">
+	<transparency>0.3</transparency>
+        <pose>0 0 0 0 0 0</pose>
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>10 5 1</size>
+          </box>
+        </geometry>
+        <material>
+	  <lighting>false</lighting>
+          <script>
+            <uri>model://stiff_ground/materials/scripts</uri>
+            <uri>model://stiff_ground/materials/textures</uri>
+            <name>vrc/mud</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>cc
+</sdf>
