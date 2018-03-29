@@ -1,26 +1,3 @@
-<?xml version="1.0" ?>
-<sdf version="1.4">
-	<model name="desk">
-		<static>true</static>
-		<link name="link">
-			<pose>0 0 -0.62 0 0 0</pose>
-			<collision name="collision">
-				<geometry>
-					<mesh>
-						<uri>model://desk/mesh/desk.dae</uri>
-						<scale>1.0 1.0 1.0</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="visual">
-				<geometry>
-					<mesh>
-						<uri>model://desk/mesh/desk.dae</uri>
-						<scale>1.0 1.0 1.0</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-	</model>
-</sdf>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:37bd78c0f79ef1cd4b76a1d0c16a639ab5cc511a46cce8f02cccd84c4a79cc61
+size 522
