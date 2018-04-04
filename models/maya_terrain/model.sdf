@@ -1,32 +1,3 @@
-<?xml version="1.0" ?>
-<sdf version="1.4">
-	<model name="maya_terrain">
-		<static>true</static>
-		<link name="link">
-			<pose>0 0 0 0 0 0</pose>
-			<collision name="collision">
-				<geometry>
-					<mesh>
-						<uri>model://maya_terrain/mesh/terrain.dae</uri>
-						<scale>0.5 0.25 0.5</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="visual">
-				<geometry>
-					<mesh>
-						<uri>model://maya_terrain/mesh/terrain.dae</uri>
-						<scale>0.5 0.25 0.5</scale>
-					</mesh>
-				</geometry>
-			  <material>
-              	<script>
-              		<uri>file://media/materials/scripts/victor.material</uri>
-              		<name>Gazebo/Road</name>
-              	</script>
-              </material>
-			</visual>
-		</link>
-	</model>
-</sdf>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e53c698ac674a05a724f73e02845b5619494af41b3f45d8f13614060fa7a079
+size 756

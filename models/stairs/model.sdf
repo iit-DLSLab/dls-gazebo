@@ -1,26 +1,3 @@
-<?xml version="1.0" ?>
-<sdf version="1.4">
-	<model name="stairs">
-		<static>true</static>
-		<link name="link">
-			<pose>0 0 0 0 0 0</pose>
-			<collision name="collision">
-				<geometry>
-					<mesh>
-						<uri>model://stairs/mesh/stairs.dae</uri>
-						<scale>1.0 1.0 1.0</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="visual">
-				<geometry>
-					<mesh>
-						<uri>model://stairs/mesh/stairs.dae</uri>
-						<scale>1.0 1.0 1.0</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-	</model>
-</sdf>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a468e0b6b2aca38d9fe7d5131e5cc20bd375410c7f896e2a1fdedc8154a12c5
+size 528

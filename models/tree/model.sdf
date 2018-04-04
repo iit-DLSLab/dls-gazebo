@@ -1,26 +1,3 @@
-<?xml version="1.0" ?>
-<sdf version="1.4">
-	<model name="tree">
-		<static>true</static>
-		<link name="link">
-			<pose>0 0 0 0 0 0</pose>
-			<collision name="collision">
-				<geometry>
-					<mesh>
-						<uri>model://tree/mesh/tree.dae</uri>
-						<scale>0.5 0.5 0.5</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="visual">
-				<geometry>
-					<mesh>
-						<uri>model://tree/mesh/tree.dae</uri>
-						<scale>0.25 0.25 0.25</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-	</model>
-</sdf>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f86c2635eacc59e5c35444d82ba6f666946807b871447c49b88fbd68fcb482e
+size 521

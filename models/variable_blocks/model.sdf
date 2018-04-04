@@ -1,26 +1,3 @@
-<?xml version="1.0" ?>
-<sdf version="1.4">
-	<model name="complex_stairs">
-		<static>true</static>
-		<link name="link">
-			<pose>0 0 0 0 0 0</pose>
-			<collision name="collision">
-				<geometry>
-					<mesh>
-						<uri>model://variable_blocks/mesh/variable_blocks.dae</uri>
-						<scale>1.0 1.0 1.0</scale>
-					</mesh>
-				</geometry>
-			</collision>
-			<visual name="visual">
-				<geometry>
-					<mesh>
-						<uri>model://variable_blocks/mesh/variable_blocks.dae</uri>
-						<scale>1.0 1.0 1.0</scale>
-					</mesh>
-				</geometry>
-			</visual>
-		</link>
-	</model>
-</sdf>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2baaed5c5709a9c9018179bacf8d61823611ee71242283b5a902536ce26e635
+size 572
