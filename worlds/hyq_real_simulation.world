@@ -1,0 +1,89 @@
+<!-- HyQReal Simulation Scenario:
+The scenario consists of five main tasks:
+Task1: Climbing up and down stairs (Michele)
+Task2: Crossing a pipe (Michele)
+Task3: Rough terrain trot (Victor)
+Task4: Foothold correction over terrain with gaps (Victor)
+Task5: Self righting (Andreea, no model needed)-->
+<?xml version="1.0" ?>
+<sdf version="1.4">
+<!-- standard world configurations -->
+  <world name="default">
+    <physics type='ode'>
+      <gravity>0 0 -9.81</gravity>
+      <!-- max step size has to be a multiple of the desired task rate-->
+      <max_step_size>0.001</max_step_size> 
+      <real_time_factor>1</real_time_factor>
+    </physics>
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+<!-- Task 1-->    
+  <!-- Climbing up: stair starts at 0.8-->  
+    <include>
+      <name>pallet480x1000x140mm</name>
+      <uri>model://pallet480x1000x140mm</uri>
+      <pose>0.8 0 0 0 0 0</pose>
+    </include>
+  <!-- another stair starts at 1.28-->  
+    <include>
+      <name>pallet480x1000x140mm</name>
+      <uri>model://pallet480x1000x140mm</uri>
+      <pose>1.28 0 0.14 0 0 0 </pose>
+    </include>
+  <!-- another stair starts at 1.76-->  
+    <include>
+      <name>pallet480x1000x140mm</name>
+      <uri>model://pallet480x1000x140mm</uri>
+      <pose>1.76 0 0.28 0 0 0 </pose>
+    </include>  
+  <!-- another stair starts at 2.24-->  
+    <include>
+      <name>pallet480x1000x140mm</name>
+      <uri>model://pallet480x1000x140mm</uri>
+      <pose>2.24 0 0.28 0 0 0 </pose>
+    </include>  
+  <!-- Going down: another stair starts at 2.72-->    
+    <include>
+      <name>pallet480x1000x140mm</name>
+      <uri>model://pallet480x1000x140mm</uri>
+      <pose>2.72 0 0.14 0 0 0</pose>
+    </include>
+  <!-- another stair starts at 3.2-->      
+    <include>
+      <name>pallet480x1000x140mm</name>
+      <uri>model://pallet480x1000x140mm</uri>
+      <pose>3.2 0 0.0 0 0 0 </pose>
+    </include>
+<!-- End of Task 1, leave 1.32m clearance -->  
+     
+<!-- Task 2-->   
+  <!-- One Pipe-->
+      <include>
+      <name>pipe</name>
+      <uri>model://pipe</uri>
+      <pose>5.0 0.0 0.15 0 0 3.14</pose>
+    </include>
+<!-- End of Task 2, leave clearance -->  
+
+<!-- Task 3-->   
+  <!-- Using Maya Terrain: a rough terrain that is scaled down 
+       to fit the world-->
+	<include>
+		<uri>model://maya_terrain_resized</uri>
+		<name>stairs</name>
+		<pose>7.5 0 0.1 1.57 0 -1.57</pose>
+	</include>
+<!-- End of Task 3, leave clearance --> 
+
+<!-- TO DO -->
+<!-- Task 3 -->
+<!-- End of Task 3 -->
+  </world>
+</sdf>
